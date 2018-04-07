@@ -1,0 +1,42 @@
+Name: Qixiong Liu
+USC ID: 9502485887
+News site crawled: https://www.c-span.org/
+
+Fetch Statistics
+================
+# fetches attempted: 19966
+# fetches succeeded: 9524
+# fetches failed or aborted: 10447
+
+Outgoing URLs
+=============
+Total URLs extracted: 750894
+# unique URLs extracted: 175650
+# unique URLs within News Site: 47722
+# unique URLs outside News Site: 127928
+
+Status Codes
+============
+200 OK: 9524
+301 Moved Permanently: 8736
+302 Found: 990
+307 Temporary Redirect: 671
+404 Not Found: 38
+410 Gone: 1
+
+File Sizes
+==========
+< 1KB: 322
+1KB ~ <10KB: 679
+10KB ~ <100KB: 8088
+100KB ~ <1MB: 377
+>= 1MB: 52
+
+Content Types
+=============
+text/html: 9206
+image/gif: 1
+image/tif: 0
+image/jpeg: 0
+image/png: 0
+application/pdf: 0
