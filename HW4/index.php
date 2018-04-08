@@ -127,8 +127,9 @@ if ($results)
         $fileId = $data[0];
         $fileUrl = $data[1];
         $fileId = "/Users/qixiongliu/Desktop/Graduate/CSCI572/HW/HW4/DataSet/NBC_News/crawl_data/".$fileId;
-        $tempArray = array($fileId => $fileUrl);
-        $resultArray = array_merge($resultArray,$tempArray);
+        // $tempArray = array($fileId => $fileUrl);
+        // $resultArray = array_merge($resultArray,$tempArray);
+        $resultArray[$fileId] = $fileUrl;
       }
     }
     fclose($handle);
